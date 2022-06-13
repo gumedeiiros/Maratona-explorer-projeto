@@ -2,70 +2,6 @@ link de bola de cristal
 
 https://gist.githubusercontent.com/maykbrito/0acdf4ce919838ffed50915a31fc5b23/raw/6f4dd01ec3116428ec4c99255944cb9ac7927590/cristal-ball.svg 
 
-# codigo HTML do projeto ( AULA 1 )
-<img src="https://gist.githubusercontent.com/maykbrito/0acdf4ce919838ffed50915a31fc5b23/raw/6f4dd01ec3116428ec4c99255944cb9ac7927590/cristal-ball.svg " alt="Imagem de uma bola de cristal">
-<h1>Vou revelar seu destino! </h1>
-<p>Clique em fazer pergunta para que seu destino seja revelado.</p>
-<input type="text" placeholder="Digite sua pergunta"  />
-<button>Fazer Pergunta</button>
-
-##Atualização do codigo HTML para entrada do CSS ( AULA 2 )
-
-<body>
-  <div id="container">
-
-<img src="https://gist.githubusercontent.com/maykbrito/0acdf4ce919838ffed50915a31fc5b23/raw/6f4dd01ec3116428ec4c99255944cb9ac7927590/cristal-ball.svg " alt="imagem de uma bola de cristal">
-  <h1>Vou revelar seu destino</h1>
-  <p>Clique em fazer pergunta para que seu destino seja revelado</p>
-  <input type="text"       placeholder="Digite sua pergunta">
-   <button>Fazer pergunta</button>
-
-
- </div> 
-</body>
-
-FOI ADD O BODY E O DIV
-
-# Codigo CSS do projeto ( AULA 2 )
-
-body{
- background-color: black;
- color: white;
- text-align: center;
- font-family: sans-serif;
-
-}
-#container {
-margin-top: 100px;
-width: 80%;
-max-width: 400px;
-margin-right: auto;
-margin-left: auto;
-/* pode subistituir o marign-left e right pot "margin-inline"*/
-/* border: 2px solid red;
-siginificado de cada item do border: 2px ( espessura da borda ), solid ( formato da borda ), red ( cor da borda ) */
-}
-
-h1{
-  margin-top: 40px;
-margin-bottom: 10px;
-opacity: 0.9;
-}
-p{
-margin-bottom: 40px;
-opacity: 0.7;
-}
-input, button {
-  display: block;
-width: 100%;
-
-padding: 20px;
-font-size: 20px;
-border-radius: 4px;
-}
-input{
-margin-bottom: 20px;
-
 
 #css
 
@@ -136,8 +72,9 @@ margin-bottom: 20px;
 - Estruturas de dados
   - Array - Vetor - Lista
     _  Array -----     0     1   2    3 
-       - const temperaturas = [23.3, 32,2, 1, 5 ]
-         console.llog(temperaturas[2])  NUMERO DENTRO DO COLCHETES "2" É A ONDEM DA TEMPERATURA QUE NESSE CASO SERIA 32.2
+         const temperaturas = [23.3, 32,2, 1, 5 ]
+         console.llog(temperaturas[2])  NUMERO DENTRO DO COLCHETES "2"
+         É A ONDEM DA TEMPERATURA QUE NESSE CASO SERIA 32.2
 
 
 - Object
